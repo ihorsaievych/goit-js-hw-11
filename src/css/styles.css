@@ -18,3 +18,17 @@
     max-width: 320px;
     margin-bottom: 16px;
   }
+
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .load-more {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }

@@ -11,7 +11,8 @@
     max-width: 1200px;
     margin-right: auto;
     margin-left: auto;
-    padding: 20px;
+    /* padding: 20px; */
+    margin-top: 10px;
   }
   
   .search-btn {
@@ -34,6 +35,7 @@
     justify-content: center;
     margin-left: auto;
     margin-right: auto;
+    margin-top: 10px;
     /*margin-bottom: 30px;*/
     color: var(--main-txt-cl);
   }
