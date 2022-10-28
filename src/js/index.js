@@ -38,6 +38,8 @@ loadMoreRef.addEventListener('click', onLoadMoreClick);
 async function onSearchFormSubmit(event) {
   event.preventDefault();
   const { value } = event.target.elements.searchQuery;
+  
+  itemsApi.resetPage();
 
   await itemsApi
     .fetchItems(value)
